@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "SergTranslate",
+  "description": "Этот переводчик запоминает вводимые слова, потом можно посмотреть топ лист вводимых слов",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts" : ["background.js"]
+  },
+  "browser_action": {
+    "defoult_title": "Перевести",
+    "default_popup": "popup.html"
+  }
+ }

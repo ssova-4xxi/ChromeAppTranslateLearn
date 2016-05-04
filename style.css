@@ -1,7 +1,18 @@
 body{
-	width: 200px;
+	width: 255px;
 	height: 500px;
 }
-form{
-	
+a{
+	float: left;
+	margin: 2px 20px;
+}
+textarea{
+	max-width: 250px;
+	max-height: 150px;
+	width: 250px;
+	height: 150px;
+}
+input[type='submit']{
+	width: 100%;
+	background-color: #090;
 }

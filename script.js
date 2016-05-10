@@ -13,8 +13,6 @@ function init(){
 
 }
 
-
-
 function translate(){
 	var info = {
 	api : 'https://translate.yandex.net/api/v1.5/tr.json/translate',
